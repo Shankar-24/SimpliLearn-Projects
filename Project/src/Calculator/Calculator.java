@@ -12,7 +12,7 @@ public class Calculator {
 	    {
 	    	System.out.println("Select the operation to perform \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division");
 	        x=sc.nextInt();
-	        if(x<1 || x>5)
+	        while(x<1 || x>4)
 	        {
 	        	System.out.println("Enter 1 (or) 2 (or) 3 (or) 4");
 	        	x=sc.nextInt();
