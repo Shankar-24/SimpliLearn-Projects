@@ -66,7 +66,7 @@ public class File_Handle {
 	    	}
 	     	catch(Exception e)
 		    {
-		    	e.getMessage();
+		    	System.out.println(e.getMessage());
 		    }
 	}
 
